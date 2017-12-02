@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/customdialog_border"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+
+            android:text="&#10;비상연락망 설정&#10;"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="wrap_content"
+            android:layout_height= "1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="&#10;&#10;&#10;&#10;어플리케이션 분실시 연락 받을 번호 설정&#10;&#10;&#10;&#10;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/SplitLine_hor2"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="&#10;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="  연락처를 설정 해주세요&#10;"
+            android:textSize="25dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/Spinner_010"
+            >
+
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text=" - "
+            android:textSize="20dp"
+            />
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/Setting_number1"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text=" - " />
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/Setting_number2"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0000" />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+         <TextView
+             android:text="&#10;"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        >
+        <Button
+            android:id="@+id/Setting_btn_cancel"
+            android:text="취소"
+            android:textColor="#ff0000"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/Setting_btn_accept"
+            android:textColor="#ff0000"
+            android:text="확인"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

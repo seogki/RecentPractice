@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_information"
+            android:title="개인정보 관리"
+            android:icon="@drawable/ic_person"/>
+        <item
+            android:id="@+id/nav_media"
+            android:title="미디어/무선통신 관리"
+            android:icon="@drawable/ic_rss"/>
+        <item
+            android:id="@+id/nav_test"
+            android:title="애플리케이션 관리" />
+        <item
+            android:id="@+id/nav_communication"
+            android:title=""
+            />
+        <item
+            android:id="@+id/nav_device"
+            android:title=""
+            />
+    </group>
+
+    <item android:title="설정">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="프로필 사진/비상연력망 변경" />
+            <item
+                android:id="@+id/nav_Img"
+                android:title="이미지/연락처 백업" />
+        </menu>
+
+
+    </item>
+
+
+</menu>
